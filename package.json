@@ -1,0 +1,29 @@
+{
+  "name": "college-appointment-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "supertest": "^6.2.2"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --timeout 10000 test/e2eTest.js"
+  }
+}
